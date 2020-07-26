@@ -37,10 +37,12 @@ app.get('/about', (req, res) => {
     })
 })
 
-app.get('/help', (req, res) => {
-    res.render('Help', {
-        helpText: 'Help message',
-        title: 'Help',
+app.get('/contact-me', (req, res) => {
+    res.render('contact', {
+        email: 'mohamed.yaseen.elmandy@gmail.com',
+        contactNumber1: '+971585215774',
+        contactNumber2: '+201098588683',
+        title: 'Contact Me',
         name: 'Mohamed Yaseen'
     })
 })
