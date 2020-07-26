@@ -32,6 +32,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
+        quote: 'Decisive, strategic and self-driven professional person. I do trust myself and my capabilities to reach a high degree of knowledge in my career.',
         title: 'About Me',
         name: 'Mohamed Yaseen'
     })
